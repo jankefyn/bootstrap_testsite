@@ -10,10 +10,12 @@ font-family: sans-serif;
 padding: 1%;
 }
 #nav{
-    position: top;
-    position:sticky;
-    
-    border-radius:10px;
+    display:flex;
+    justify-content: flex-end;
+    position: sticky;
+    top:0;
+    z-index: 10;
+
 }
 h1{
     color: rgb(11, 250, 253);
